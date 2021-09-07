@@ -1,0 +1,23 @@
+<ion-content fullscreen class="ion-padding">  
+  <ion-header>
+    <ion-toolbar>
+      <!-- Back Button -->
+      <ion-buttons slot="start">
+        <ion-back-button defaultHref="/"></ion-back-button>
+      </ion-buttons>
+      <!-- Title -->
+      <ion-title>Agregar Tarea!</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content>
+    <!-- Input -->
+    <ion-input placeholder="Agrega tu tarea aquí!"></ion-input>
+    <!-- Add Button -->
+    <ion-fab vertical="bottom" horizontal="center" slot="fixed">
+      <ion-fab-button>
+        <ion-icon [routerLink]="['/show-list']" name="add"></ion-icon>
+      </ion-fab-button>
+    </ion-fab>
+  </ion-content>
+</ion-content>

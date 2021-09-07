@@ -1,0 +1,7 @@
+{
+  "name": "ionicPages",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
